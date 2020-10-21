@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 248, 248); 
+}
+
+#navber{
+    position: relative;
+    background: rgb(173, 173, 173);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(./img/animation-5.gif);
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    z-index: 2;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    grid-gap: 5rem; 
+    padding: 1rem;
+
+}
+
+.nav ul li a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 17px 20px;
+  
+ }
+
+ .nav ul li a:hover {
+    color: white;
+    background: #85d13d;
+ }
+
+ /* showcase */
+
+#showcase {
+    background: rgb(173, 173, 173);
+}
+   
+  #showcase .body {
+    background: url(./img/body\ img.gif) no-repeat center center /cover;
+    height:100vh;
+
+ }
+  #showcase .body h2 {
+    font-size: 5rem;
+    font-size: bold;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fdfffd;
+    padding: 25%;
+  
+ }
+
+ #showcase .body h2 span {
+     color:#ee0a87;
+ }
+
+ /* showcase-1 */
+
+ #showcase-1 {
+    background: rgb(173, 173, 173);
+ }
+
+ #showcase-1 .image {
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 1.6rem;
+
+ }
+ 
+ #showcase-1 .image h1 {
+     font-size: 3rem;
+     text-transform: capitalize;
+     font-style: italic;
+     margin-top: 4rem;
+ }
+
+ #showcase-1 .image h1 span {
+     color: red;
+ }
+ 
+
+ #showcase-1 .image img {
+     width:330px;
+     height: 330px;
+     margin-top: 1rem;
+     margin-bottom:  10%;
+ }
+
+ /* showcase-2 */
+
+ #showcase-2 {
+    background: rgb(173, 173, 173);
+ }
+
+ #showcase-2 .one {
+     text-align: center;
+   
+ }
+
+ #showcase-2 .one h3 {
+     font-size: 2rem;
+     text-transform: capitalize;
+     line-height: 5rem;
+ }
+
+ #showcase-2 .one p {
+     font-size: 1.3rem;
+     line-height: 2rem;
+     padding-bottom:10%; 
+ }
+  
+ /* showcase-3 */
+
+ #showcase-3 {
+    background: rgb(173, 173, 173);
+ }
+
+  #showcase-3 .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-bottom: 7rem;
+  }
+
+  #showcase-3 .home h1 {
+      font-size: 3rem;
+      text-transform: capitalize;
+      font-style: italic;   
+  }
+
+  #showcase-3 .home h1 span {
+      color:#B5E7E4 ;
+  } 
+
+
+  #showcase-3 .home p {
+      font-size: 1rem;
+      line-height: 2rem;
+      padding-bottom:2rem;
+    
+    
+  }
+
+  #showcase-3 .butt button {
+      font-size: 1.5rem;
+      background: #6CC15A;
+      color: white;
+      padding: 10px 40px;
+      border-radius: 5px;
+    
+    
+  }
+
+  #showcase-3 .butt button:hover {
+      background: #85d13d;
+  }
+
+   /* showcase-4 */
+
+   
+
+   #showcase-4 {
+    background: rgb(173, 173, 173);
+  
+   }
+
+ #showcase-4 .about {
+   display: grid;  
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 4rem;
+   padding-bottom: 10%;
+ 
+ }
+
+ #showcase-4 .about img {
+     width: 600px;
+     height: 600px;
+ }
+ 
+ #showcase-4 .home h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 3rem;
+ 
+   
+}
+
+#showcase-4 .home h1 span {
+    color:#B5E7E4 ;
+}
+
+
+#showcase-4 .home p {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+#showcase-4 .butt button {
+    font-size: 1.5rem;
+    background: #6CC15A;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+#showcase-4 .butt button:hover {
+    background: #85d13d;
+   
+}
+
+/* footer */
+
+#showcase-5 {
+    background: rgb(173, 173, 173); 
+}
+
+ #showcase-5 .footer {
+     text-align: center;
+     background: rgb(194, 171, 223);
+     color: white;
+     height: 4rem;
+   
+  
+ }
+
+ #showcase-5 .footer p {
+     font-size: 1.5rem;
+     text-transform: capitalize;
+     padding: 1rem;
+   
+ }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ 
