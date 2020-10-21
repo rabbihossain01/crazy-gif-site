@@ -25,15 +25,21 @@ a {
     background: rgb(173, 173, 173);
 }
 
+#navber .container{
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
 .nav {
     display: flex;
     justify-content: center;
     text-align: center;
     background: url(./img/animation-5.gif);
-    position: fixed;
-    top: 0;
-    width: 1400px;
-    z-index: 2;
+
 }
 
 .nav ul {
